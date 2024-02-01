@@ -1,0 +1,143 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+button {
+    background: #017143;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+h2 {
+    font-size: 65px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #017143;
+    font-size: 95px;
+    font-weight: 900;
+}
+
+.Logo {
+    width: 80px;
+}
+
+.Cg {
+    width: 340px;
+    z-index: 2;
+}
+
+.Cp {
+    margin-left: 48px;
+    width: 60px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Cp:hover {
+    transform: translateY(-40px);
+}
+
+.geral {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tx {
+    width: 600px;
+}
+
+.img-cg {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.circulo {
+    background-color: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+}
+
+.verde {
+    z-index: 2;
+}
+
+.salmao {
+    z-index: 2;
+}
+
+.rosa {
+    z-index: 2;
+}
+
+.circulop1 {
+    background-color: #017143;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    justify-content: flex-end;
+    border-radius: 100%;
+    top: 845px;
+    left: 865px;
+    right: 5000;
+
+}
+
+.circulop2 {
+    background-color: #017143;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    justify-content: flex-end;
+    border-radius: 100%;
+    top: 845px;
+    left: 975px;
+    right: 5000;
+
+}
+
+.circulop3 {
+    background-color: #017143;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    justify-content: flex-end;
+    border-radius: 100%;
+    top: 845px;
+    left: 1083px;
+    right: 5000;
+
+}
