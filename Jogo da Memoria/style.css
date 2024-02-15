@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
